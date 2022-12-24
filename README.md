@@ -5,4 +5,10 @@ Using this design pattern, it helps to separate the Write side (commands) and Re
 
 ![structure](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/structure.png)
 
+## Commands : Writing side 
+in this part, we create an aggregate in which we manage the business layer. By managing that, we create commands, and we change the status of the aggregate by applying new events.
+
+![aggregate](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/aggregate.png)
+
+
 
