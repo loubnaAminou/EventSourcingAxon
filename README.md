@@ -13,9 +13,14 @@ in this part, we create an aggregate in which we manage the business layer. By m
 
 ![aggregate](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/aggregate.png)
 
-Then, a controller is created to define the HTTP methods in order to use the CommandGateway which is responsible for sending commands. So by that, we can apply th ePOST method successfully.
+Then, a controller is created to define the HTTP methods in order to use the CommandGateway which is responsible for sending commands. So by that, we can apply the POST method successfully.
 
 ![output](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/commands-output.png)
+
+also, we can read the content of the event store through a GET mapping for each account using its ID in the URL
+
+![eventstore](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/eventstore.png)
+
 
 ## Queries : Reading side 
 as usual, we create entities, repositories, services and controllers to manage the data of the project
