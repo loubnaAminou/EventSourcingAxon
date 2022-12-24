@@ -27,6 +27,18 @@ as usual, we create entities, repositories, services and controllers to manage t
 
 ![queries-structure](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/queries-structure.png)
 
+at this level, the service is not responsible for the rules anymore, we are only receiving the events and trying to read the content and save it into the repositories.
+
+![service](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/service.png)
+
+as a result, we can check for each account to show its details and the different operations we had for this account such as DEBIT or CREDIT.
+
+![account](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/account.png)
+
+For the Database, two tables are created as repositories "Account" and "Operation, including to the tables those are created by default by the AXON framework.
+
+![database](https://github.com/loubnaAminou/EventSourcingAxon/blob/main/screenshots/database.png)
+
 
 
 
